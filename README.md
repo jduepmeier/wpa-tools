@@ -13,6 +13,13 @@ Every config file can contain more than one network if you want.
 The systemd service file is not tested. If you use it please let
 me know if it works.
 
+### Samples
+The samples directory contains following examples:
+* [empty.conf](samples/empty.conf) - File to clear all networks (i use it to disconnect from all networks).
+* [wpa2.conf](samples/wpa2.conf) - File to connect to a wpa2 network.
+* [open.conf](samples/open.conf) - File to connect to a open network.
+* [ttls_pap.conf](samples/ttls_pap.conf) - Connect to a enterprise network.
+
 ### How it works
 
 With the ```network``` script a config file can be selected.
